@@ -4260,7 +4260,7 @@ video {
 }
 
 .bg-main-img {
-  background-image: url('/dist/img/hl1-bg.jpg');
+  background-image: url('../img/hl1-bg.jpg');
 }
 
 .from-transparent {
@@ -35071,7 +35071,7 @@ main a {
   }
 
   .sm\:bg-main-img {
-    background-image: url('/dist/img/hl1-bg.jpg');
+    background-image: url('../img/hl1-bg.jpg');
   }
 
   .sm\:from-transparent {
@@ -65799,7 +65799,7 @@ main a {
   }
 
   .md\:bg-main-img {
-    background-image: url('/dist/img/hl1-bg.jpg');
+    background-image: url('../img/hl1-bg.jpg');
   }
 
   .md\:from-transparent {
@@ -96527,7 +96527,7 @@ main a {
   }
 
   .lg\:bg-main-img {
-    background-image: url('/dist/img/hl1-bg.jpg');
+    background-image: url('../img/hl1-bg.jpg');
   }
 
   .lg\:from-transparent {
@@ -127255,7 +127255,7 @@ main a {
   }
 
   .xl\:bg-main-img {
-    background-image: url('/dist/img/hl1-bg.jpg');
+    background-image: url('../img/hl1-bg.jpg');
   }
 
   .xl\:from-transparent {
@@ -157983,7 +157983,7 @@ main a {
   }
 
   .\32xl\:bg-main-img {
-    background-image: url('/dist/img/hl1-bg.jpg');
+    background-image: url('../img/hl1-bg.jpg');
   }
 
   .\32xl\:from-transparent {

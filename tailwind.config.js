@@ -14,7 +14,7 @@ module.exports = {
     "theme": {
         extend: {
             backgroundImage: theme => ({
-                "main-img": "url('/dist/img/hl1-bg.jpg')"
+                "main-img": "url('../img/hl1-bg.jpg')"
             })
         },
         "colors": colors
