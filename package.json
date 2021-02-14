@@ -1,0 +1,16 @@
+{
+  "name": "goldsrc-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/css/style.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}

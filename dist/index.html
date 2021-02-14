@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test of goldsrc viewer</title>
+    <script src="../hlviewer/hlviewer.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="flex p-5 bg-red-500 align-middle justify-evenly">
+        <h1 class="text-3xl font-semibold">Goldsrc Viewer</h1>
+        <a target="_" href="https://github.com/f-llewellyn/goldsrc-viewer" class="hover:text-custom-yellow-500"><i class="fab fa-github-square fa-3x"></i></a>
+    </header>
+    <main class="flex flex-col justify-center items-center text-left m-auto p-4 bg-main-img text-white">
+        <div class="w-min">
+            <div class="m-1" id="hlv-target" style="width: 1280px; height: 720px;"></div>
+            <h2 class="text-2xl font-semibold">About this:</h2>
+            <p class="text-lg">This is a tool that will allow you to view most goldsrc maps and demos (essentially all main games except blue shift) in your web browser with the use of the <a target="_" href="https://github.com/skyrim/hlviewer.js?files=1">hlviewer.js</a> library kindly provided by <a target="_" href="https://github.com/skyrim">skyrim</a> on github. At the moment it only displays a one map with a demo but hopefully I will be able to expand functionality to allow the use of locally stored assets using the Filesystem Access API. Until then you can check out my <a target="_" href="https://github.com/f-llewellyn">github</a> and enjoy this demo 🙂.</p>
+            <br>
+            <h2 class="text-2xl font-semibold">Controls:</h2>
+            <p>To access free mode, click on the cog in the veiwer and select free. <br>Movement: WASD; ascend: Space; descend: C; fullscreen: F; exit: esc</p>
+        </div>
+    </main>
+    <footer class="flex bg-custom-yellow-500 p-2 justify-center">
+        <h2 class="text-xl">Finn Llewellyn &copy; 2021</h2>
+    </footer>
+</body>
+</html>
